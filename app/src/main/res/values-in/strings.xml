@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">CulinaryLoop</string>
+
+    <!-- Navigation -->
+    <string name="nav_stores">Outlet</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_cart">Keranjang</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <!-- Store Locator & Branch Discovery -->
+    <string name="title_store_locator">Temukan Outlet</string>
+    <string name="hint_search_stores">Cari cabang atau kota…</string>
+    <string name="label_selected_outlet">Outlet Terpilih</string>
+    <string name="label_status_open">Buka Sekarang</string>
+    <string name="label_status_closed">Tutup</string>
+    <string name="label_distance_km">Jarak %.1f km</string>
+    <string name="label_operating_hours">Jam Buka: %1$s</string>
+    <string name="label_channels">Layanan: %1$s</string>
+    <string name="label_channel_dine_in">Makan di Tempat</string>
+    <string name="label_channel_takeaway">Bawa Pulang</string>
+    <string name="label_channel_delivery">Pesan Antar</string>
+    <string name="btn_select_store">Pilih Outlet Ini</string>
+    <string name="btn_view_menu">Lihat Menu</string>
+    <string name="btn_locate_me">Lokasi Saya</string>
+    <string name="title_location_permission">Akses Lokasi</string>
+    <string name="msg_location_permission">Izinkan akses lokasi untuk menemukan outlet kuliner terdekat dari posisi Anda saat ini.</string>
+    <string name="btn_grant_permission">Aktifkan Lokasi</string>
+
+    <!-- Menu & Categories -->
+    <string name="title_menu_catalog">Katalog Menu</string>
+    <string name="hint_search_menu">Cari makanan, minuman, camilan…</string>
+    <string name="label_category_all">Semua Menu</string>
+    <string name="label_category_coffee">Kopi &amp; Minuman</string>
+    <string name="label_category_mains">Hidangan Utama</string>
+    <string name="label_category_snacks">Camilan &amp; Pelengkap</string>
+    <string name="label_category_desserts">Hidangan Penutup</string>
+    <string name="label_in_stock">Tersedia</string>
+    <string name="label_out_of_stock">Habis</string>
+    <string name="label_price_starting">Mulai %1$s</string>
+    <string name="label_currency_format">Rp %1$s</string>
+
+    <!-- Product Detail & Modifiers -->
+    <string name="title_product_detail">Detail Produk</string>
+    <string name="label_modifiers">Kustomisasi</string>
+    <string name="label_modifier_sugar">Tingkat Gula</string>
+    <string name="label_modifier_ice">Tingkat Es</string>
+    <string name="label_modifier_size">Ukuran</string>
+    <string name="label_modifier_toppings">Topping Tambahan</string>
+    <string name="label_quantity">Jumlah</string>
+    <string name="label_special_notes">Catatan Khusus</string>
+    <string name="hint_special_notes">Cth., kurangi manis, saus dipisah…</string>
+    <string name="btn_add_to_cart">Tambah ke Keranjang • %1$s</string>
+    <string name="msg_item_added">Berhasil ditambahkan ke pesanan</string>
+
+    <!-- Cart & Checkout Simulation -->
+    <string name="title_cart">Keranjang Belanja</string>
+    <string name="title_empty_cart">Keranjang Anda Kosong</string>
+    <string name="msg_empty_cart">Temukan berbagai hidangan kuliner lezat kami untuk memulai pesanan.</string>
+    <string name="btn_browse_catalog">Lihat Katalog</string>
+    <string name="title_order_summary">Rincian Pembayaran</string>
+    <string name="label_subtotal">Subtotal</string>
+    <string name="label_tax">Pajak Restoran PB1 (10%)</string>
+    <string name="label_service_charge">Biaya Layanan (5%)</string>
+    <string name="label_total">Total Pembayaran</string>
+    <string name="label_order_channel">Jenis Pesanan</string>
+    <string name="label_table_number">Nomor Meja</string>
+    <string name="hint_table_number">cth., Meja 08</string>
+    <string name="btn_simulate_checkout">Simulasi Pemesanan ESB</string>
+    <string name="msg_processing_order">Menghubungkan ke Gerbang Pesanan ESB…</string>
+    <string name="title_order_success">Pesanan Diterima!</string>
+    <string name="label_order_id">Referensi ESB: %1$s</string>
+    <string name="label_order_status">Status: %1$s</string>
+    <string name="btn_order_done">Selesai</string>
+    <string name="error_order_failed">Gagal mengirim pesanan: %1$s</string>
+    <string name="btn_retry">Coba Lagi</string>
+
+    <!-- Settings & Per-App Preferences -->
+    <string name="title_settings">Pengaturan</string>
+    <string name="header_appearance">Tampilan</string>
+    <string name="label_theme_mode">Mode Tema</string>
+    <string name="theme_follow_system">Ikuti Sistem</string>
+    <string name="theme_light">Mode Terang</string>
+    <string name="theme_dark">Mode Gelap</string>
+    <string name="label_dynamic_color">Warna Dinamis</string>
+    <string name="desc_dynamic_color">Sesuaikan skema warna dengan wallpaper perangkat</string>
+    <string name="header_localization">Bahasa</string>
+    <string name="label_language">Bahasa Aplikasi</string>
+    <string name="lang_system">Default Sistem</string>
+    <string name="lang_english">English (US)</string>
+    <string name="lang_indonesian">Bahasa Indonesia</string>
+    <string name="header_haptics">Umpan Balik Haptik</string>
+    <string name="label_enable_haptics">Aktifkan Haptik Taktil</string>
+    <string name="desc_enable_haptics">Memberikan getaran klik responsif saat berinteraksi</string>
+    <string name="header_platform">Platform API ESB</string>
+    <string name="label_esb_environment">Mode Lingkungan</string>
+    <string name="desc_esb_environment">Gerbang Sandbox ESB Loop / ESB Order</string>
+    <string name="label_app_version">Versi 1.0 (Rilis Produksi)</string>
+
+    <!-- Accessibility Content Descriptions -->
+    <string name="cd_navigate_back">Kembali</string>
+    <string name="cd_close">Tutup</string>
+    <string name="cd_increase_qty">Tambah jumlah</string>
+    <string name="cd_decrease_qty">Kurangi jumlah</string>
+    <string name="cd_remove_item">Hapus item dari keranjang</string>
+    <string name="cd_store_marker">Penanda lokasi outlet</string>
+    <string name="cd_clear_search">Hapus pencarian</string>
+    <string name="cd_current_location">Lokasi saat ini</string>
+</resources>
